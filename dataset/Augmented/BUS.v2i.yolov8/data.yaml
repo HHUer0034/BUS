@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['level1-0-20-', 'level2-20-45-', 'level3-45-100-', 'level4-100-']
+
+roboflow:
+  workspace: qiu-yanbin-poinr
+  project: bus-ktygs
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/qiu-yanbin-poinr/bus-ktygs/2
